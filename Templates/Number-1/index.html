@@ -113,8 +113,8 @@
 			</a>
 			
 			
-			<div id="announcement-banner" class="marquee-container z-50 rounded-b-lg shadow-sm">
-				<div id="announcement-text" class="marquee-text scroll-fa" dir="rtl">
+			<div id="header-banner" class="marquee-container z-50 rounded-b-lg shadow-sm">
+				<div id="header-text" class="marquee-text scroll-fa" dir="rtl">
 				</div>
 			</div>
 			
@@ -542,11 +542,11 @@
 		
 		// Subscription update announcement
 		function fetchAnnouncement() {
-			const banner = document.getElementById("announcement-banner");
-			const textElement = document.getElementById("announcement-text");
+			const banner = document.getElementById("header-banner");
+			const textElement = document.getElementById("header-text");
 			if (!banner || !textElement) return;
 
-			const rawUrl = "https://raw.githubusercontent.com/im-JvD/Rebecca-Template/main/announcement.txt?t=" + new Date().getTime();
+			const rawUrl = "https://raw.githubusercontent.com/im-JvD/Rebecca-Template/main/header.txt?t=" + new Date().getTime();
 
 			fetch(rawUrl)
 				.then(response => {
@@ -582,7 +582,7 @@
             }, 2500);
 		
 			
-			const bannerText = document.getElementById("announcement-text");
+			const bannerText = document.getElementById("header-text");
 			if (bannerText) {
 				const langBtn = document.getElementById("lang-btn");
 				if (langBtn && langBtn.innerText.trim() === "فارسی") {
