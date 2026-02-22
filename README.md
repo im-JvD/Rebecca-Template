@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/downloads/im-JvD/Rebecca-Template/total?style=flat-square&color=green&label=Installs" alt="Total Installs" />
  
-  <img src="https://img.shields.io/badge/Platform-Ubuntu%20%7C%20Debian-orange?style=flat-square" alt="Platform" />
+  <img src="https://img.shields.io/badge/Panel-Rebecca%20%7C%20Marzban-orange?style=flat-square" alt="Platform" />
   
   <a href="https://t.me/MmDJvD_Karimi" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-Channel-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram Support" />
