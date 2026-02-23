@@ -268,7 +268,8 @@
                         </div>
                         <div class="grid grid-cols-2 gap-3 mb-3">
                             <a href="https://apps.apple.com/us/app/streisand/id6450534064" target="_blank" class="bg-blue-600 text-white text-center py-2.5 rounded-custom hover:bg-blue-700 transition text-sm font-bold shadow-sm" data-translate="btn_download">دانلود</a>
-                            <button onclick="importToStreisand()" class="bg-blue-100 text-blue-700 border border-blue-200 text-center py-2.5 rounded-custom hover:bg-blue-200 transition text-sm font-bold shadow-sm" data-translate="btn_import">وارد کردن</button>
+                            <button onclick="importToApp('streisand://import/?url=')" class="bg-blue-100 text-blue-700 border border-blue-200 text-center py-2.5 rounded-custom hover:bg-blue-200 transition text-sm font-bold shadow-sm" data-translate="btn_import">وارد کردن</button>
+                        </div>
                         <a href="#" onclick="showToast('لینک آموزش به‌زودی اضافه می‌شود', 'Tutorial link coming soon')" class="block w-full bg-gray-50 border border-gray-200 text-gray-700 text-center py-2.5 rounded-custom hover:bg-gray-100 transition text-sm font-bold mt-2" data-translate="btn_tutorial">مشاهده ویدئو آموزشی</a>
                     </div>
 
@@ -383,7 +384,7 @@
             let qrContainer = document.getElementById("qrcode");
             if(qrContainer) {
                 new QRCode(qrContainer, {
-                    text: ,
+                    text: window.location.href,
                     width: 110,
                     height: 110,
                     colorDark : "#1e3a8a",
@@ -454,12 +455,12 @@
         }
 
         function copySubLink() {
-            copyText();
+            copyText(window.location.href);
         }
 
         // Import Link Generator
         function importToApp(scheme) {
-            const subLink = ;
+            const subLink = window.location.href;
             window.location.href = scheme + encodeURIComponent(subLink);
         }
 		
@@ -539,7 +540,7 @@
 				});
 		}
 		
-		// Subscription update Header Text
+		// Subscription update announcement
 		function fetchAnnouncement() {
 			const banner = document.getElementById("header-banner");
 			const textElement = document.getElementById("header-text");
@@ -566,14 +567,6 @@
 					console.error("Failed to fetch announcement:", err);
 					banner.style.display = "none";
 				});
-		}
-		
-		function importToStreisand() {
-		    const rawUrl = window.location.href.split('#')[0];
-		    const subName = encodeURIComponent('{{ user.username }}');
-		    const fullLink = rawUrl + '#' + subName;
-		    const iosUniversalLink = fullLink.replace(/^https?:\/\//i, 'sub://');
-		    window.location.href = iosUniversalLink;
 		}
 		
         // Toast Message System
