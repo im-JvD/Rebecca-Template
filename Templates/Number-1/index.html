@@ -268,7 +268,7 @@
                         </div>
                         <div class="grid grid-cols-2 gap-3 mb-3">
                             <a href="https://apps.apple.com/us/app/streisand/id6450534064" target="_blank" class="bg-blue-600 text-white text-center py-2.5 rounded-custom hover:bg-blue-700 transition text-sm font-bold shadow-sm" data-translate="btn_download">دانلود</a>
-                            <button onclick="window.location.href = 'streisand://import?url=' + encodeURIComponent(window.location.href.split('#')[0] + '#{{ user.username }}')" class="bg-blue-100 text-blue-700 border border-blue-200 text-center py-2.5 rounded-custom hover:bg-blue-200 transition text-sm font-bold shadow-sm" data-translate="btn_import">وارد کردن</button>
+                            <button onclick="window.location.href = 'streisand://import/#' + window.location.href.split('#')[0] + '#' + encodeURIComponent('{{ user.username }}')" class="bg-blue-100 text-blue-700 border border-blue-200 text-center py-2.5 rounded-custom hover:bg-blue-200 transition text-sm font-bold shadow-sm" data-translate="btn_import">وارد کردن</button>
                         </div>
                         <a href="#" onclick="showToast('لینک آموزش به‌زودی اضافه می‌شود', 'Tutorial link coming soon')" class="block w-full bg-gray-50 border border-gray-200 text-gray-700 text-center py-2.5 rounded-custom hover:bg-gray-100 transition text-sm font-bold mt-2" data-translate="btn_tutorial">مشاهده ویدئو آموزشی</a>
                     </div>
@@ -595,4 +595,5 @@
     </script>
 </body>
 </html>
+
 
