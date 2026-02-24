@@ -62,7 +62,7 @@ show_menu() {
     clear
 	  draw_header
     echo -e "      1.${NC} ${GREEN}Install${NC} new Template"
-    echo -e "      2.${NC} ${YELLOW}Change${NC} Template"
+    echo -e "      2.${NC} ${YELLOW}Update${NC} or ${YELLOW}Change${NC} Template"
     echo -e "      3.${NC} ${RED}Delete${NC} Template"
     echo ""
     echo -e "    4. Exit"
@@ -150,7 +150,7 @@ except Exception as e:
             ;;
             
         2)
-            echo -e "\n${YELLOW}[*] Change feature is coming soon!${NC}"
+            echo -e "\n${YELLOW}[*] Update or Change feature is coming soon!${NC}"
             ;;
             
         3)
