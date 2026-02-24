@@ -39,3 +39,13 @@
 ```
 curl -fsSL https://github.com/im-JvD/Rebecca-Template/releases/download/Stable-Version/installer.sh | bash
 ```
+<br>
+
+### ⚠️ نکته مهم :
+پس از اتمام فرایند نصب و ریستارت شدن پنل ، **اگر از پنل ربکا استفاده میکنید** حتما به بخش تنظیمات رفته و آدرس سفارشی را در بک‌اند این پنل غیر فعال کنید . مقادیر مورد نیاز در فایل کانفیگ `.env` بصورت خودکار درج خواهد شد .
+<p align="center"><br>
+<b>Settings » Master Settings » Subscription » Custom templates directory <code>( فیلد را خالی بزارید )</code></b>
+<br><br>جهت روحیه بخشی و حمایت از پروژه <b>فقط و فقط کافیه به ریپو [ اِستار ] بدید</b>
+</p‌>
+
+ 
