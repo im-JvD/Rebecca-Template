@@ -15,8 +15,12 @@
   <img src="https://img.shields.io/badge/Panel-Rebecca%20%7C%20Marzban-orange?style=flat-square" alt="Platform" />
   
   <a href="https://t.me/MmDJvD_Karimi" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-Channel-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram Support" />
-  </a>
+    <img src="https://img.shields.io/badge/Telegram-Channel-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram Support" /></a>‌
+  <p align="center">
+   <a href="https://xraytemplate.github.io/Rebecca-Demo/">مشاهده پیش‌نمایش آنلاین</a><br>
+  </p‌>
+</a>
+
 </p>
 
 <br>
