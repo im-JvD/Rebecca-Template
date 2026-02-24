@@ -26,7 +26,9 @@
 <br>
 <p align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/im-JvD/Rebecca-Template/refs/heads/main/Photos/Demo.png" width="1080px" />
+  <a href="https://xraytemplate.github.io/Rebecca-Demo/">
+    <img src="https://raw.githubusercontent.com/im-JvD/Rebecca-Template/refs/heads/main/Photos/Demo.png" width="1080px" alt="پیش‌نمایش قالب" />
+  </a>
   <br>
 </p‌>
 <br>
